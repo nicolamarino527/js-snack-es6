@@ -31,3 +31,17 @@ const biciclette = [
 ];
 console.table("catalogo biciclette:",biciclette);
 
+// facciamo un ciclo per individuare la bicicletta col peso minore e mostriamola in console
+let biciLeggera = biciclette[0];
+
+for (let k = 1; k < biciclette.length; k++) {
+    let bici = biciclette[k];
+    let pesoBici = parseFloat(bici.peso);
+    
+    if (pesoBici < parseFloat(biciLeggera.peso)){
+        biciLeggera = bici;
+    }
+
+    };
+
+console.log("la bici piu leggera del ctalogo é:",biciLeggera.nome);
