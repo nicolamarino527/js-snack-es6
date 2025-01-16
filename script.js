@@ -65,6 +65,18 @@ let squadre = [
     {"nome": "Cagliari", "punti": 0, "falli": 0},
 ];
 
+// Creiamo una funzione che genera numeri casuali in un certo range
+function numeriRandom(min,max){
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+
+// Sostituiamo un numero random per ogni valore di punti e falli
+squadre.forEach(squadra => {
+    squadra.punti = numeriRandom(10,20);
+    squadra.falli = numeriRandom(5,15);
+});
+
+// 
 
 
 console.log(squadre);
