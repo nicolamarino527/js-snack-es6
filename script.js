@@ -15,3 +15,19 @@
 
 
 
+// snack 1
+
+// creiamo l'array di biciclette
+const biciclette = [
+    {"nome": "Mountain Bike", "peso": "12kg"},
+    {"nome": "Road Bike", "peso": "8kg"},
+    {"nome": "Hybrid Bike", "peso": "10kg"},
+    {"nome": "Electric Bike", "peso": "20kg"},
+    {"nome": "Folding Bike", "peso": "11kg"},
+    {"nome": "BMX", "peso": "9kg"},
+    {"nome": "Touring Bike", "peso": "13kg"},
+    {"nome": "Gravel Bike", "peso": "9.5kg"},
+    {"nome": "Fat Bike", "peso": "14kg"}
+];
+console.table("catalogo biciclette:",biciclette);
+
