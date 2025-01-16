@@ -76,10 +76,14 @@ squadre.forEach(squadra => {
     squadra.falli = numeriRandom(5,15);
 });
 
-// 
+// Facciamo un array formato da nomi e falli delle squadre
+let nomiFalliSquadre = squadre.map(squadra => {
+    return { "nome": squadra.nome, "falli": squadra.falli };
+});
 
-
-console.log(squadre);
+// Mostriamo i dati in console
+console.table(squadre);
+console.table(nomiFalliSquadre);
 
 // squadre.posizione = "!";
 // squadre["punti"] = 10;
