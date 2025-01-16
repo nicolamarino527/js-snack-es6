@@ -15,9 +15,9 @@
 
 
 
-// snack 1
+// Snack 1
 
-// creiamo l'array di biciclette
+// Creiamo l'array di biciclette
 const biciclette = [
     {"nome": "Mountain Bike", "peso": "12kg"},
     {"nome": "Road Bike", "peso": "8kg"},
@@ -31,7 +31,7 @@ const biciclette = [
 ];
 console.table("catalogo biciclette:",biciclette);
 
-// facciamo un ciclo per individuare la bicicletta col peso minore e mostriamola in console
+// Facciamo un ciclo per individuare la bicicletta col peso minore e mostriamola in console
 let biciLeggera = biciclette[0];
 
 for (let k = 1; k < biciclette.length; k++) {
@@ -45,3 +45,30 @@ for (let k = 1; k < biciclette.length; k++) {
     };
 
 console.log("la bici piu leggera del ctalogo é:",biciLeggera.nome);
+
+// Snack 2
+
+// Creaiamo l'array delle squadre
+let squadre = [
+    {"nome": "Juventus", "punti": 0, "falli": 0},
+    {"nome": "Inter Milan", "punti": 0, "falli": 0},
+    {"nome": "AC Milan", "punti": 0, "falli": 0},
+    {"nome": "Roma", "punti": 0, "falli": 0},
+    {"nome": "Napoli", "punti": 0, "falli": 0},
+    {"nome": "Atalanta", "punti": 0, "falli": 0},
+    {"nome": "Lazio", "punti": 0, "falli": 0},
+    {"nome": "Fiorentina", "punti": 0, "falli": 0},
+    {"nome": "Sampdoria", "punti": 0, "falli": 0},
+    {"nome": "Torino", "punti": 0, "falli": 0},
+    {"nome": "Bologna", "punti": 0, "falli": 0},
+    {"nome": "Udinese", "punti": 0, "falli": 0},
+    {"nome": "Cagliari", "punti": 0, "falli": 0},
+];
+
+
+
+console.log(squadre);
+
+// squadre.posizione = "!";
+// squadre["punti"] = 10;
+
